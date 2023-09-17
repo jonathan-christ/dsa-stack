@@ -30,27 +30,30 @@ int main(){
 	initStack(&s);
 	
 	push(&s, 'S');
-	push(&s, 'K');
+	push(&s, 'U');
+	push(&s, 'T');
 	push(&s, 'C');
-	push(&s, 'O');
-	push(&s, 'C');
+	push(&s, 'A');
 	push(&s, 'C');
 	displayStack(s);
-	displayStack(s);
-	pop(&s);
-	pop(&s);
-	pop(&s);
-	pop(&s);
-	pop(&s);
-	pop(&s);
 	pop(&s);
 	displayStack(s);
+	pop(&s);
+	pop(&s);
+	pop(&s);
+	pop(&s);
+	pop(&s);
+	pop(&s);
+	pop(&s);
+	displayStack(s);
+	printf("Top: %c\n", getTop(s));
 	
 	push(&s, 'X');
 	push(&s, 'V');
 	displayStack(s);
 	
 	makeNull(&s);
+	pop(&s);
 	displayStack(s);
 	
 	push(&s, 'C');

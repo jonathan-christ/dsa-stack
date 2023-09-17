@@ -76,7 +76,7 @@ char getTop(Stack s){
 	if(!isEmpty(s)){
 		retVal = s->data;
 	}else{
-		retVal = -1;
+		retVal = '\0';
 	}
 	
 	return retVal;

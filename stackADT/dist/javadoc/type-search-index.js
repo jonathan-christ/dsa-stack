@@ -1,1 +1,1 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"stackadt","l":"Main"},{"p":"stackadt","l":"StackArray"}];updateSearchResults();
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"stackadt","l":"Main"},{"p":"stackadt","l":"StackArray"},{"p":"stackadt","l":"StackLinkedList"}];updateSearchResults();
